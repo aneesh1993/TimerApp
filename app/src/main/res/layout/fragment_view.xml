@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mobileappclass.midterm.ViewFragment">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Task Name"
+      android:gravity="center"
+      android:id="@+id/viewTaskName"
+      android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Time"
+        android:gravity="center"
+        android:id="@+id/viewTaskTime"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
